@@ -1,4 +1,3 @@
-import { HomePage } from './home';
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { Page1 } from '../Page1/home';
@@ -14,7 +13,7 @@ export class HomePage {
     
   }
   goToHome(){
-    this.navCtrl.setRoot(Page1);
+    this.navCtrl.push(Page1);
   }
 
 }
